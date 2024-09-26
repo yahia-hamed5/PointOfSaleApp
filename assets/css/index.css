@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Heavy', sans-serif;
+
+}
+body{
+    height: 100vh;
+}
+#sidebar-cart{
+    background-color: #808080 ;
+}
+#carts{
+    width: 100%;
+}
+#mycatigory{
+    background-color: #F8F8F7;
+    overflow: auto;
+}
+#btn-carts{
+
+    height: 5vh;
+}
+.card{
+    border-radius: 3rem;
+    /* height: 25vh; */
+    overflow: auto;
+    
+}
+#carts img{
+    width: 25%;
+}
+.card img {
+    width: 90%;
+    border: none;
+    border-radius: 30%;
+}
+#image-cart{
+    width:40%;
+    border: none;
+    border-radius: 30%;
+
+}
+.card:hover {
+    cursor: pointer;
+    background-color: #FFCA40;
+    transition: 400ms;
+}
+.card-products{
+    border-radius: 3rem;
+    /* height: 25vh; */
+    overflow: auto;
+    
+}
+.card-products img {
+    width: 90%;
+    border: none;
+    border-radius: 30%;
+}
+.card-products:hover {
+    cursor: pointer;
+    background-color: #FFCA40;
+    transition: 400ms;
+}
+#text{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 100%;
+    font-weight: 900;
+    /* font-family: 'Gilroy-Regular', sans-serif; */
+}
+#name{
+    /* font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif; */
+    font-size: large;
+    font-weight: bolder ;
+}
+#price{
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size:large;
+    font-weight: bold;
+    color: #C8161D;
+}
+#whight{
+font-weight: 300;
+color: #808080;
+}
+
+.casheir{
+    background-color: #C8161D;
+    height: 100%;
+}
+.casheir img{
+    width: 50%;
+    border: none;
+    border-radius: 50%;
+}
+
+
+#cashier-items img{
+    width: 50%;
+    border: none;
+    border-radius: 50%;
+}
+
+#name4{
+    background-color: white;
+    height: 100%;
+    position:fixed;
+    right: 0;
+    z-index: inherit;
+    border-radius: 1rem;
+
+}
+
+
+
+
+#image-cart{
+    border-radius: 5rem;
+}
+
+#icon{
+    font-size: large;
+    font-weight: 900;
+}
+
+#button{
+    border-radius:5rem;
+}
+#button:hover {
+    cursor: pointer;
+    background-color: #FFCA40;
+    transition: 400ms;
+}
+.links{
+    gap: 1rem;
+    padding-left: 2rem;
+}
